@@ -1,0 +1,13 @@
+
+<!--section.wxml-->
+<!--引用模板news.wxml文件-->
+<import src="../../components/news/news.wxml"/>
+
+<view class="container">
+
+        <!-- page.wxml -->
+        
+  <web-view src="https://www.zhihu.com/hot" class="webview"></web-view>
+
+
+</view>

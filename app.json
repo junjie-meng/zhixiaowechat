@@ -1,0 +1,51 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/comments/comments",
+    "pages/section/section",
+    "pages/about/about",
+    "pages/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#4abdcc",
+    "navigationBarTitleText": "知晓",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f6f6f6"
+  },
+  "tabBar": {
+    "color": "#b0b0b0",
+    "selectedColor": "#4abdcc",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_selected.png",
+        "text": "日报"
+      },
+      {
+        "pagePath": "pages/section/section",
+        "iconPath": "images/zhuti.png",
+        "selectedIconPath": "images/zhuti_selected.png",
+        "text": "热点"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about_selected.png",
+        "text": "我的关注"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

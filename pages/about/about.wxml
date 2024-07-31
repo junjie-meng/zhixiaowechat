@@ -1,0 +1,19 @@
+<view class='about'>
+  <view style='text-align:center;'>
+    <image style='width:120px;' src='../../images/20240524044945.jpg' mode='widthFix'></image>
+  </view>
+  <view>软件版本：v1.0.0</view>
+  <view>家事国事天下事事事关心 ~</view>
+
+  <!-- 添加输入框和按钮 -->
+  <view>
+    <input type="text" placeholder="请输入你希望的关注" bindinput="onInputChange" value="{{userInput}}" />
+    <button bindtap="onSubmit">提交</button>
+  </view>
+  
+  <!-- 显示用户输入的数据 -->
+  <view>关注：</view>
+  <view wx:for="{{interests}}" wx:key="index">
+    <text>{{item.interest}}</text>
+  </view>
+</view>
